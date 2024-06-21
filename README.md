@@ -6,3 +6,9 @@ python -m venv venv
 #Install necessary packages
 pip install -r requirments.txt
 
+#start the app
+uvicorn main:app --reload
+
+#upload the pdf file you want
+
+#ask any question related to that pdf
